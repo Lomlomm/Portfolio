@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    kiubix, 
+    agilezip
   } from "../assets";
   
   export const navLinks = [
@@ -141,7 +143,7 @@ import {
     {
       title: "Fullstack Developer",
       company_name: "Agilezip",
-      icon: tesla,
+      icon: agilezip,
       iconBg: "#E6DEDD",
       date: "April 2023 - Today",
       points: [
@@ -158,7 +160,7 @@ import {
     {
       title: "Backend Developer",
       company_name: "Kiubix",
-      icon: shopify,
+      icon: kiubix,
       iconBg: "#383E56",
       date: "June 2021 - September 2022",
       points: [

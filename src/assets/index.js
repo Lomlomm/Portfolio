@@ -37,6 +37,7 @@ import maquipa from './maquipa.png'
 import nasa from './nasa.png'
 import up from './up.png'
 import utr from './utr.jpg'
+import avatar from './avatar.png'
 
 export {
   logo_white,
@@ -74,4 +75,5 @@ export {
   nasa,
   utr,
   up,
+  avatar, 
 };

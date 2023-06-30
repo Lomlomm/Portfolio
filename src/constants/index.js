@@ -24,7 +24,12 @@ import {
     tripguide,
     threejs,
     kiubix, 
-    agilezip
+    agilezip, 
+    maquipa, 
+    nasa, 
+    up,
+    utr, 
+    fau
   } from "../assets";
   
   export const navLinks = [
@@ -173,7 +178,7 @@ import {
     {
       title: "Software Developer",
       company_name: "Maquipa",
-      icon: meta,
+      icon: maquipa,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - June 2021",
       points: [

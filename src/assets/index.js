@@ -32,7 +32,11 @@ import tripguide from "./tripguide.png";
 
 import agilezip from "./agilezip.png"
 import kiubix from "./kiubix.jpg"
-
+import fau from './fau.png'
+import maquipa from './maquipa.png'
+import nasa from './nasa.png'
+import up from './up.png'
+import utr from './utr.jpg'
 export {
   logo_white,
   backend,

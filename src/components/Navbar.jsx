@@ -23,7 +23,7 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
         >
-          <img src='src\assets\logo_white.png' alt='logo'
+          <img src='..\assets\logo_white.png' alt='logo'
             className='w-11 h-11 object-contain '
           />
           <p 

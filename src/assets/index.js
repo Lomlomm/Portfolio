@@ -30,6 +30,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import agilezip from "./agilezip.png"
+import kiubix from "./kiubix.jpg"
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  agilezip, 
+  kiubix,
 };

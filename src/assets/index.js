@@ -37,6 +37,7 @@ import maquipa from './maquipa.png'
 import nasa from './nasa.png'
 import up from './up.png'
 import utr from './utr.jpg'
+
 export {
   logo_white,
   backend,
@@ -68,4 +69,9 @@ export {
   tripguide,
   agilezip, 
   kiubix,
+  maquipa, 
+  fau,
+  nasa,
+  utr,
+  up,
 };

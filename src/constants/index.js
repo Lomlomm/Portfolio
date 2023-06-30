@@ -171,16 +171,16 @@ import {
       ],
     },
     {
-      title: "Fullstack Developer",
+      title: "Software Developer",
       company_name: "Maquipa",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - June 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsible for the organization and coordination of the project.",
+        "Collaborating with the frontend team to develop user friendly and beautiful apps.",
+        "Creation,maintaining, test and debug of the core desk application logic, data integration and management.",
+        "Created system for a constructor industry to manage its storage, auditories and construction project materials.",
       ],
     },
   ];

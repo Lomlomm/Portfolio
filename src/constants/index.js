@@ -29,7 +29,8 @@ import {
     nasa, 
     up,
     utr, 
-    fau
+    fau,
+    avatar
   } from "../assets";
   
   export const navLinks = [
@@ -133,7 +134,7 @@ import {
     {
       title: "Software Developer | Product Manager",
       company_name: "Self Projects",
-      icon: starbucks,
+      icon: avatar,
       iconBg: "#383E56",
       date: "2022 - Today",
       points: [

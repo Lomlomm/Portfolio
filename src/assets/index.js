@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo_white from "./logo_white.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,7 +34,7 @@ import agilezip from "./agilezip.png"
 import kiubix from "./kiubix.jpg"
 
 export {
-  logo,
+  logo_white,
   backend,
   creator,
   mobile,

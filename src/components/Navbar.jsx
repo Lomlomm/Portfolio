@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { logo_white } from '../assets/index'
 
 import { styles } from '../style';
 import { navLinks } from '../constants';
@@ -23,7 +24,7 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
         >
-          <img src='../assets/logo_white.png' alt='logo'
+          <img src={logo_white} alt='logo'
             className='w-11 h-11 object-contain '
           />
           <p 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../style';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { logo, menu, close, logo_white } from '../assets';
 import { AiFillHeart } from "react-icons/ai";
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
         >
           <p 
           className='text-white text-[18px] font-bold cursor-pointer flex'> Made with &nbsp; <AiFillHeart/> &nbsp; by </p>
-          <img src='../assets/logo_white.png' alt='logo'
+          <img src={logo_white} alt='logo'
             className='w-11 h-11 object-contain '
           />
         </Link>

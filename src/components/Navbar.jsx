@@ -4,7 +4,7 @@ import { logo_white } from '../assets/index'
 
 import { styles } from '../style';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close } from '../assets';
 
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
           />
           <p 
           className='text-white text-[18px] font-bold cursor-pointer flex'> Vanessa  &nbsp; <span 
-          className='sm:block hidden'> | Fullstack Dev |</span></p>
+          className='sm:block hidden'> | Software Dev |</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

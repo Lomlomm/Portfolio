@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../style';
 import { navLinks } from '../constants';
-import { logo, menu, close, logo_white } from '../assets';
+import { menu, close, logo_white } from '../assets';
 import { AiFillHeart } from "react-icons/ai";
 
 const Footer = () => {

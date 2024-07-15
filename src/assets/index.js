@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nuxtjs from "./tech/nuxtjs.png";
+import python from "./tech/python.png"
+import flutter from "./tech/flutter.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -38,6 +41,11 @@ import nasa from './nasa.png'
 import up from './up.png'
 import utr from './utr.jpg'
 import avatar from './avatar.png'
+
+import towerhousestudio from './towerhousestudio.jpeg'
+import etchasketch from './etch-a-sketch.png'
+import rock from './rockpaperscissors.png'
+import burgi from './burgi.png'
 
 export {
   logo_white,
@@ -76,4 +84,11 @@ export {
   utr,
   up,
   avatar, 
+  towerhousestudio,
+  etchasketch, 
+  rock, 
+  burgi,
+  nuxtjs, 
+  python,
+  flutter
 };

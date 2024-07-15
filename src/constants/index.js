@@ -15,10 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -26,11 +22,13 @@ import {
     kiubix, 
     agilezip, 
     maquipa, 
-    nasa, 
-    up,
-    utr, 
-    fau,
-    avatar
+    towerhousestudio, 
+    etchasketch, 
+    rock, 
+    burgi,
+    nuxtjs,
+    python,
+    flutter
   } from "../assets";
   
   export const navLinks = [
@@ -52,17 +50,23 @@ import {
     {
       id: "sketch", 
       title: "Have fun",
-      url: "https://lomlomm.github.io/Etch-A-Sketch/" 
+      url: "#games" 
+    },
+    {
+      id: "blog",
+      title: "Blog",
+      url: "https://lomlomdevblog.netlify.app/"
+      
     }
   ];
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Fullstack Developer",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Researcher | ML dev",
       icon: mobile,
     },
     {
@@ -97,8 +101,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "NuxtJS",
+      icon: nuxtjs,
     },
     {
       name: "Tailwind CSS",
@@ -109,12 +113,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "git",
@@ -132,18 +136,18 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer | Product Manager",
-      company_name: "Self Projects",
-      icon: avatar,
-      iconBg: "#383E56",
-      date: "2022 - Today",
+      title: "Fullstack Developer",
+      company_name: "TowerHouse Studio",
+      icon: towerhousestudio,
+      iconBg: "#FFFFFF",
+      date: "Dec 2023 - June 2024",
       points: [
-        "Developing web applications using Python, javascript, xml and other related technologies.",
-        "Supervising the development of functional and quality products",
-        "Applying great communication skills to attend requirements directly from the client",
-        "Collaborating with cross-functional teams including administrators and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed frontend of mobile app following Figma designs.",
+        "Demonstrated adaptability and strong teamwork skills by successfully collaborating with two different teams to achieve project goals and enhance overall performance.",
+        "Developed fullstack solutions with Laravel along with Vue.js.",
+        "Helped to create a Docker environment for the project to ensure consistency across the development team.",
+        "Created a C4 diagram to represent the software architecture",
+        "Technologies: Laravel, MySQL, Docker, Flutter, Vue.js, CSS.",
       ],
     },
     {
@@ -151,7 +155,7 @@ import {
       company_name: "Agilezip",
       icon: agilezip,
       iconBg: "#E6DEDD",
-      date: "April 2023 - Today",
+      date: "April 2023 - August 2023",
       points: [
         "Developing web applications using Python, javascript, xml and other related technologies.",
         "Supervising the development of functional and quality products",
@@ -161,32 +165,35 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Technologies: PostgreSQL, Ionic, XML, Python, Git, Docker.",
       ],
     },
     {
       title: "Backend Developer",
       company_name: "Kiubix",
       icon: kiubix,
-      iconBg: "#383E56",
+      iconBg: "#FFFFFF",
       date: "June 2021 - September 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Technologies: GraphQL, Spark, Flask, MySQL, Git."
       ],
     },
     {
       title: "Software Developer",
       company_name: "Maquipa",
       icon: maquipa,
-      iconBg: "#E6DEDD",
+      iconBg: "#FFFFFF",
       date: "Jan 2021 - June 2021",
       points: [
         "Responsible for the organization and coordination of the project.",
         "Collaborating with the frontend team to develop user friendly and beautiful apps.",
         "Creation,maintaining, test and debug of the core desk application logic, data integration and management.",
         "Created system for a constructor industry to manage its storage, auditories and construction project materials.",
+        "Technologies: C#, MySQL, Git"
       ],
     },
   ];
@@ -194,29 +201,38 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Her academic background clearly reflects her analytical and methodical approach to work, which was a great asset to our team. In addition, her willingness to learn and adapt to new technologies and work methods was evident from day one. I emphasize that she is a highly skilled and adaptable professional, with a technical profile, problem-solving skills and a personality to be valued. Vanessa demonstrated her ability to adapt quickly to a completely new project, with remarkable efficiency and effectiveness.",
+      name: "Bruno Villero",
+      designation: "Team Leader",
+      company: "TowerHouse Studio",
+      image: "https://media.licdn.com/dms/image/C4E03AQGcCqN39b1Gcg/profile-displayphoto-shrink_200_200/0/1544295612914?e=1726704000&v=beta&t=_-1A1Htc4QzwSir4hwn17h-qG3Xrq0ocbmoUZXVkXCw",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "",
+      name: "Nicolás Curbelo",
+      designation: "Teammate",
+      company: "TowerHouse Studio",
+      image: "https://media.licdn.com/dms/image/C4D03AQH4kbC1aDys_g/profile-displayphoto-shrink_200_200/0/1624573797682?e=1726704000&v=beta&t=196w-IcU5KMAZmiR-0Nwjoyg20xa0Hje1dgOOEt24aA",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "",
+      name: "Diego Manchado",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "TowerHouse Studio",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+    {
+      testimonial:
+        "",
+      name: "Jessica Sierra",
+      designation: "CTO",
+      company: "TowerHouse Studio",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+
   
   const projects = [
     {
@@ -283,5 +299,28 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const games = [
+    {
+      name: "Etch-A-Sketch",
+      description:
+        "Draw whats on your mind",
+      image: etchasketch,
+      source_code_link: "https://lomlomm.github.io/Etch-A-Sketch/",
+    }, 
+    {
+      name: "Rock-Paper-Scissors",
+      description:
+        "It's time to beat the machines",
+      image: rock,
+      source_code_link: "https://lomlomm.github.io/RockPaperScissors/",
+    }, 
+    {
+      name: "Burgi the dev", 
+      description: "This is burgi the dev. She adopted a dog and struggles to not be eaten. She likes to paint and spend time if her confy room.",
+      image: burgi, 
+      source_code_link: "https://my.spline.design/miniroomcopy-19f8d0c7b5f8cd41c755b41cb9860a6f/"
+    }
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, games };
